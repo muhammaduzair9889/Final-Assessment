@@ -1,0 +1,11 @@
+Loki Setup:
+
+1. Started Loki using Docker:
+docker run -d -p 3100:3100 grafana/loki:2.9.0
+
+2. Logs viewed via:
+docker logs <container_id>
+
+3. Loki accessible at:
+http://localhost:3100
+
